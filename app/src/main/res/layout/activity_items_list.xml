@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/foodItem"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/rubik"
+        android:text="Item"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/expirydate"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/foodItem"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/rubik"
+        android:text="Expiration Date:" />
+
+    <ImageButton
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="49dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/edit__3_" />
+
+    <ImageButton
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="23dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/delete__2_" />
+
+</RelativeLayout>
+
+
+
