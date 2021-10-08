@@ -9,3 +9,5 @@ Google Cloud’s Firestore Database. The user can view and interact with their i
 with their expiration dates with the app’s real time listener to the cloud-hosted database.
 Moreover, FoodTracker includes a manual entry option in case of any inaccuracy in recognizing
 the item. This app uses Inceptionv3 pre-trained model for food items category classification.
+
+Used Technologies and languages: Figma, Java, XML, Python, and jupyter notebook.
